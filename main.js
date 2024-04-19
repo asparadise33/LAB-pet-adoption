@@ -11,7 +11,7 @@ const pets = [
     {
       id: 2,
       name: "Trouble",
-      imageUrl: "http://www.jozilife.co.za/wp-content/uploads/The-Dino-Expo.jpg",
+      imageUrl: "https://pbs.twimg.com/profile_images/1488679573998948356/1wjxxmEB_400x400.png",
       color: "Brown",
       specialSkill: "Just picks the tomatoes off of a sandwich instead of requesting a whole new sandwich.",
       type: "dino",
@@ -63,7 +63,7 @@ const pets = [
     },
     {
       id: 8,
-      imageUrl: "http://www.theouthousers.com/images/jck//ThanosCopter/news/grumpasaur.jpg",
+      imageUrl: "https://vignette4.wikia.nocookie.net/poohadventures/images/a/af/Rex.jpg/revision/latest?cb=20120601021411",
       name: "Ginger",
       color: "Grey",
       specialSkill: "Comfortable in the outdoors for up to eight hours.",
@@ -90,7 +90,7 @@ const pets = [
     },
     {
       id: 11,
-      imageUrl: "http://www.cantref.com/userfiles/events/walking%20dino.jpg?w=600",
+      imageUrl: "https://imgix.bustle.com/inverse/6e/d5/21/62/fdc6/4690/9c62/2b83586ce986/ducky-not-actually-duck-like.jpeg?w=374&h=196&fit=crop&crop=faces&auto=format%2Ccompress",
       name: "Coco",
       color: "Orange",
       specialSkill: "Can be around food without staring creepily at it.",
@@ -108,7 +108,7 @@ const pets = [
     },
     {
       id: 13,
-      imageUrl: "http://1kjkdg1axrkd2g03cnboj761.wpengine.netdna-cdn.com/wp-content/uploads/2017/12/braydon-anderson-105552-e1512684107659.jpg",
+      imageUrl: "https://images.ctfassets.net/sfnkq8lmu5d7/4Ma58uke8SXDQLWYefWiIt/3f1945422ea07ea6520c7aae39180101/2021-11-24_Singleton_Puppy_Syndrome_One_Puppy_Litter.jpg?w=1000&h=750&fl=progressive&q=70&fm=jpg",
       name: "Chester",
       color: "Red",
       specialSkill: "Expertly quotes and recognizes dialogue from early seasons of The Simpsons.",
@@ -135,7 +135,7 @@ const pets = [
     },
     {
       id: 16,
-      imageUrl: "https://images.readwrite.com/wp-content/uploads/2018/03/t-rex-dino-quiz-e1490854556549.jpg",
+      imageUrl: "https://m.media-amazon.com/images/S/pv-target-images/51f0c929b83d6ee2eb474b08f788e3cc2448f972de34a5e593284def9fdb45f9.jpg",
       name: "Smokey",
       color: "Brown",
       specialSkill: "Drives at a safe rate of speed in snow or rain.",
@@ -144,7 +144,7 @@ const pets = [
     },
     {
       id: 17,
-      imageUrl: "http://www.funnycatsite.com/pictures/Close_Up_Yawn.jpg",
+      imageUrl: "https://bloximages.chicago2.vip.townnews.com/tucson.com/content/tncms/assets/v3/editorial/8/11/811db2f8-213d-11e7-9400-eb7c9e2abeb8/58f1105a19858.image.jpg",
       name: "Muffin",
       color: "Yellow",
       specialSkill: "Does not freak out if you haven’t seen his favorite movie (The Big Lebowski).",
@@ -153,7 +153,7 @@ const pets = [
     },
     {
       id: 18,
-      imageUrl: "https://www.nation.co.ke/image/view/-/4078922/highRes/1742693/-/maxw/600/-/1453yvh/-/DINO.jpg",
+      imageUrl: "https://blenderartists.org/uploads/default/original/4X/0/9/1/091951be334cb86cdb8666aa80e7685f532ee79b.jpeg",
       name: "Salem",
       color: "Brown",
       specialSkill: "Proficient in air guitar",
@@ -162,7 +162,7 @@ const pets = [
     },
     {
       id: 19,
-      imageUrl: "http://dailynewsdig.com/wp-content/uploads/2014/03/Creative-And-Funny-Dog-Stock-Photography-Pictures-2.jpg",
+      imageUrl: "https://hips.hearstapps.com/hmg-prod/images/funny-dog-captions-1563456605.jpg",
       name: "Callie",
       color: "Blue",
       specialSkill: "Listens attentively to boring stories.",
@@ -171,7 +171,7 @@ const pets = [
     },
     {
       id: 20,
-      imageUrl: "http://www.funnycatsite.com/pictures/Lazy_White_Cat.jpg",
+      imageUrl: "https://media.istockphoto.com/id/1322123064/photo/portrait-of-an-adorable-white-cat-in-sunglasses-and-an-shirt-lies-on-a-fabric-hammock.jpg?s=612x612&w=0&k=20&c=-G6l2c4jNI0y4cenh-t3qxvIQzVCOqOYZNvrRA7ZU5o=",
       name: "Spooky",
       color: "Black",
       specialSkill: "Uses litter box at appropriate hours.",
@@ -180,7 +180,7 @@ const pets = [
     },
     {
       id: 21,
-      imageUrl: "https://img.buzzfeed.com/buzzfeed-static/static/2015-11/2/12/enhanced/webdr15/anigif_enhanced-29802-1446485228-10.gif?crop=250:165;0,0&downsize=715",
+      imageUrl: "https://lh4.googleusercontent.com/proxy/845brGDWMT_DwIytn7FhL2Httc506ooWevzE799tgbmKmaOdwdMwhLOXRDbUZdYrNEiLkFL3QTW7dov9Mbh9xilJG0mQtyJtAlRPjYvcgirxMxEd4-DDxDaAbD4f5qk_tknGGstH",
       name: "Miss kitty",
       color: "Red",
       specialSkill: "Owns a Nintendo Power Glove.",
@@ -189,7 +189,7 @@ const pets = [
     },
     {
       id: 22,
-      imageUrl: "http://funnyanimalphoto.com/wp-content/uploads/2013/08/cat_caught_mouse_thegatewaypundit.jpg",
+      imageUrl: "https://i.natgeofe.com/k/ad9b542e-c4a0-4d0b-9147-da17121b4c98/MOmeow1_4x3.png",
       name: "Snuggles",
       color: "Orange",
       specialSkill: "Is comfortable with jokes about his receding hairline.",
@@ -207,7 +207,7 @@ const pets = [
     },
     {
       id: 24,
-      imageUrl: "http://www.dogbreedplus.com/dog_breeds/images/basset-hound-4.jpg",
+      imageUrl: "https://i.pinimg.com/564x/7f/26/e7/7f26e71b2c84e6b16d4f6d3fd8a58bca.jpg",
       name: "George",
       color: "Brown",
       specialSkill: "Participates in karaoke but does not force others to go out to karaoke.",
@@ -216,7 +216,7 @@ const pets = [
     },
     {
       id: 25,
-      imageUrl: "http://funbk.s3.amazonaws.com/wp-content/uploads/2016/06/funny-cat-video-which-will-make-you-laugh-louder.jpg",
+      imageUrl: "https://t3.ftcdn.net/jpg/01/93/38/40/360_F_193384026_F34lj9rX9W4ixlVZBrTJmijK010Tdv0j.jpg",
       name: "Salem",
       color: "Red",
       specialSkill: "Knows the words to 4 rap songs.",
@@ -260,7 +260,7 @@ const pets = [
     },
     {
       id: 30,
-      imageUrl: "http://lsae2.iypcdn.com/static//modules/uploads/photos/language1/dino-live-22.jpg?119",
+      imageUrl: "https://ih1.redbubble.net/image.3930996492.3368/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg",
       name: "Lucy",
       color: "Red",
       specialSkill: "Doesn’t get weirded out by the word “moist.”",
@@ -273,9 +273,10 @@ const pets = [
     selectedDiv.innerHTML = htmlToRender;
   };
 //empty string to pull info into
-  let domString = "";
   
-  pets.forEach((pet) => {
+  const cardsOnDom = (pets) => {
+  let domString = "";
+   for (const pet of pets) {
     domString += `<div class="card" style="width: 18rem;">
     <img src="${pet.imageUrl}" class="card-img-top" alt="...">
     <div class="card-body">
@@ -285,13 +286,63 @@ const pets = [
       <p class="card-text">${pet.type}</p>
     </div>
   </div>`;
+  }
+ renderToDom("#app", domString);
+};
 
-renderToDom("#app", domString);});
-//add buttons
-const showAllButton = document.querySelector("#dog-btn");
-const button1= document.querySelector("#cat-btn");
-const button2 = document.querySelector("#dino-btn");
-
-//add event listener
 
 //add filter
+const filter = (array, typeOfPet) => {
+  const typeArray = [];
+
+   array.forEach((item) => {
+   if (item.type === typeOfPet) {
+     typeArray.push(item);
+     }
+   });
+
+  for (const member of array) {
+    if (member.type === typeOfPet) {
+      typeArray.push(member);
+    }
+  }
+
+  return typeArray;
+};
+cardsOnDom(pets);
+
+//add buttons
+const allBtn= document.querySelector("#allpets-btn");
+const dogsBtn= document.querySelector("#dog-btn");
+const catsBtn = document.querySelector("#cat-btn");
+const dinoBtn = document.querySelector("#dino-btn");
+
+//add event listener
+allBtn.addEventListener("click", () => {
+  cardsOnDom(pets);
+});
+dogsBtn.addEventListener("click", () => {
+  cardsOnDom(pets);
+});
+catsBtn.addEventListener("click", () => {
+  cardsOnDom(pets);
+});
+dinoBtn.addEventListener("click", () => {
+  cardsOnDom(pets);
+});
+
+//add click event with filter
+dogsBtn.addEventListener("click", () => {
+ const dogmember = filter(pets, "dog");
+cardsOnDom(dogmember);
+});
+
+catsBtn.addEventListener("click", () => {
+  const catmember = filter(pets, "cat");
+ cardsOnDom(catmember);
+ });
+
+ dinoBtn.addEventListener("click", () => {
+  const dinomember = filter(pets, "dino");
+ cardsOnDom(dinomember);
+ });

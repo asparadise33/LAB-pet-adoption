@@ -1,0 +1,14 @@
+
+body {
+ background-color: darkgray;
+}
+#app {
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap
+}
+
+.card {
+  margin: 10px;
+  border: solid 2px black;
+}
