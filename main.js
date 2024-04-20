@@ -306,10 +306,10 @@ const filter = (array, typeOfPet) => {
       typeArray.push(member);
     }
   }
-
+  cardsOnDom(pets);
   return typeArray;
 };
-cardsOnDom(pets);
+
 
 //add buttons
 const allBtn= document.querySelector("#allpets-btn");
@@ -346,3 +346,24 @@ catsBtn.addEventListener("click", () => {
   const dinomember = filter(pets, "dino");
  cardsOnDom(dinomember);
  });
+
+//add a new pet form
+
+const form = document.querySelector('form');
+
+const createPet = (e) => {
+  e.preventDefault();
+
+  const newPetObj = {
+    id: pets.length +1, //name of our array,
+    imageUrl: document.querySelector("#imageUrl").value,
+    name: document.querySelector("#name").value,
+    color: document.querySelector("#color").value,
+    specialSkill: document.querySelector("#specialSkill").value,
+    type: document.querySelector("#type").value,
+  };
+    pets.push(newPetObj);
+    cardsOnDom(pets);
+    form.reset();
+  };
+  form.addEventListener("submit", createPet);
