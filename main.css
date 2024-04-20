@@ -1,6 +1,6 @@
 
 body {
- background-color:darkcyan;
+ background-color:darkcyan !important;
 }
 
 #buttons {
@@ -12,11 +12,15 @@ body {
  flex-direction: row;
  flex-wrap: wrap;
  font-family:Arial, Helvetica, sans-serif;
- color:goldenrod;
+ color: beige;
 }
 
 .pet-card {
   margin: 10px;
   border: solid 4px cadetblue; 
+  text-align: center;
+}
+
+#addPet {
   text-align: center;
 }
