@@ -11,7 +11,7 @@ const pets = [
     {
       id: 2,
       name: "Trouble",
-      imageUrl: "https://pbs.twimg.com/profile_images/1488679573998948356/1wjxxmEB_400x400.png",
+      imageUrl: "https://vignette4.wikia.nocookie.net/poohadventures/images/a/af/Rex.jpg/revision/latest?cb=20120601021411",
       color: "Brown",
       specialSkill: "Just picks the tomatoes off of a sandwich instead of requesting a whole new sandwich.",
       type: "dino",
@@ -63,7 +63,7 @@ const pets = [
     },
     {
       id: 8,
-      imageUrl: "https://vignette4.wikia.nocookie.net/poohadventures/images/a/af/Rex.jpg/revision/latest?cb=20120601021411",
+      imageUrl: "https://pbs.twimg.com/profile_images/1488679573998948356/1wjxxmEB_400x400.png",
       name: "Ginger",
       color: "Grey",
       specialSkill: "Comfortable in the outdoors for up to eight hours.",
@@ -277,13 +277,13 @@ const pets = [
   const cardsOnDom = (pets) => {
   let domString = "";
    for (const pet of pets) {
-    domString += `<div class="card" style="width: 18rem;">
+    domString += `<div class="pet-card" style="width: 18rem;">
+    <h3 class="card-name">${pet.name}</h3>
     <img src="${pet.imageUrl}" class="card-img-top" alt="...">
     <div class="card-body">
-      <p class="card-text">${pet.name}</p>
-      <p class="card-text">${pet.color}</p>
-      <p class="card-text">${pet.specialSkill}</p>
-      <p class="card-text">${pet.type}</p>
+      <p class="card-color">${pet.color}</p>
+      <p class="card-skill">${pet.specialSkill}</p>
+      <p class="card-type">${pet.type}</p>
     </div>
   </div>`;
   }
