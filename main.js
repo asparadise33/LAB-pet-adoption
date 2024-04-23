@@ -279,11 +279,12 @@ const pets = [
    for (const pet of pets) {
     domString += `<div class="pet-card" style="width: 18rem;">
     <h3 class="card-name">${pet.name}</h3>
-    <img src="${pet.imageUrl}" class="card-img-top" alt="...">
+    <img src="${pet.imageUrl}" class="card-img-top";" alt="pet picture">
     <div class="card-body">
       <p class="card-color">${pet.color}</p>
       <p class="card-skill">${pet.specialSkill}</p>
       <p class="card-type">${pet.type}</p>
+      <button class="btn btn-danger" id="delete--${pet.id}">Delete</button>
     </div>
   </div>`;
   }
@@ -367,3 +368,17 @@ const createPet = (e) => {
     form.reset();
   };
   form.addEventListener("submit", createPet);
+
+  //add a delete button that removes an object from our array
+  const app = document.querySelector("#app");
+  app.addEventListener("click", (e) => {
+    if (e.target.id.includes("delete")) {
+      const [, id] = e.target.id.split("--");
+      //console.log("id", id);
+      const index = pets.findIndex((pet) => pet.id === Number(id));
+      //console.log("index", index);
+      pets.splice(index, 1);
+      //console.log("pets", pets);
+      cardsOnDom(pets);
+    }
+  });
