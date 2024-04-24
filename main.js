@@ -1,3 +1,4 @@
+//my array of information with objests and key pair values
 const pets = [
     {
       id: 1,
@@ -267,20 +268,20 @@ const pets = [
       type: "dino",  
     }
   ];
-
+//this is a utility function to get the cards on the dom
   const renderToDom = (divId, htmlToRender) => {
     const selectedDiv = document.querySelector(divId);
     selectedDiv.innerHTML = htmlToRender;
   };
-//empty string to pull info into
-  
+
+  //this function gets the cards on the dom
   const cardsOnDom = (pets) => {
-  let domString = "";
-   for (const pet of pets) {
-    domString += `<div class="pet-card" style="width: 18rem;">
-    <h3 class="card-name">${pet.name}</h3>
+  let domString = "";//empty string to pull info into
+   for (const pet of pets) { //a for loop that goes through each of our objects listed above
+    domString += `<div class="pet-card" style="width: 18rem;"> 
+    <h3 class="card-name">${pet.name}</h3> 
     <img src="${pet.imageUrl}" class="card-img-top";" alt="pet picture">
-    <div class="card-body">
+    <div class="card-body"> 
       <p class="card-color">${pet.color}</p>
       <p class="card-skill">${pet.specialSkill}</p>
       <p class="card-type">${pet.type}</p>
@@ -288,22 +289,22 @@ const pets = [
     </div>
   </div>`;
   }
- renderToDom("#app", domString);
-};
+ renderToDom("#app", domString); // this will render all cards to the dom from our domstring
+};//this is a bootstrap card that pull all of our objects and renders them to the dom! it access our key pair values by the . (dot)
 
 
-//add filter
+//add filter to select the different types of pets
 const filter = (array, typeOfPet) => {
-  const typeArray = [];
+  const typeArray = []; //empty array to pull in our objects/pets
 
-   array.forEach((item) => {
-   if (item.type === typeOfPet) {
-     typeArray.push(item);
+   array.forEach((item) => { //fo each equation
+   if (item.type === typeOfPet) { //here is where you call your filter item which is type of pet
+     typeArray.push(item);//
      }
    });
 
   for (const member of array) {
-    if (member.type === typeOfPet) {
+    if (member.type === typeOfPet) { //strict equality, this must match to pull the correct card to the dom
       typeArray.push(member);
     }
   }
@@ -312,14 +313,14 @@ const filter = (array, typeOfPet) => {
 };
 
 
-//add buttons
+//add buttons pulls from HTML
 const allBtn= document.querySelector("#allpets-btn");
 const dogsBtn= document.querySelector("#dog-btn");
 const catsBtn = document.querySelector("#cat-btn");
 const dinoBtn = document.querySelector("#dino-btn");
 
-//add event listener
-allBtn.addEventListener("click", () => {
+//add event listener for each button so "something" happens when its clicked by a user
+allBtn.addEventListener("click", () => {//listens for a click on the show all button
   cardsOnDom(pets);
 });
 dogsBtn.addEventListener("click", () => {
@@ -348,11 +349,11 @@ catsBtn.addEventListener("click", () => {
  cardsOnDom(dinomember);
  });
 
-//add a new pet form
+//add a new pet form fully pulls from our HTML
 
 const form = document.querySelector('form');
 
-const createPet = (e) => {
+const createPet = (e) => { //e stands for event
   e.preventDefault();
 
   const newPetObj = {
@@ -363,21 +364,21 @@ const createPet = (e) => {
     specialSkill: document.querySelector("#specialSkill").value,
     type: document.querySelector("#type").value,
   };
-    pets.push(newPetObj);
+    pets.push(newPetObj); //adding this to our array, we are pushing it up!
     cardsOnDom(pets);
     form.reset();
   };
-  form.addEventListener("submit", createPet);
+  form.addEventListener("submit", createPet); //adds it to our 
 
   //add a delete button that removes an object from our array
   const app = document.querySelector("#app");
   app.addEventListener("click", (e) => {
     if (e.target.id.includes("delete")) {
-      const [, id] = e.target.id.split("--");
+      const [, id] = e.target.id.split("--"); //splits our object from the array (also references the buttons)
       //console.log("id", id);
       const index = pets.findIndex((pet) => pet.id === Number(id));
       //console.log("index", index);
-      pets.splice(index, 1);
+      pets.splice(index, 1); //this will delete one object from our array, could use any number but we want just one to be deleted
       //console.log("pets", pets);
       cardsOnDom(pets);
     }
